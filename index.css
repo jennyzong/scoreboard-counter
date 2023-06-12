@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #1A2447;
+}
+*{
+    margin: 0;
+}
+@font-face{
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: scoreboard;
+}
+
+.bigContainer{
+    background-color: #1A2447;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 0 0;
+    color: white;
+    background-color: #1A2447;
+    height: 55vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+    .container h3{
+        text-align: center;
+        margin: 25px 0px 0px 0px;
+    }
+
+
+.score{
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 15px 50px;
+    background: black;
+    display: flex; 
+    justify-content: space-around;
+    color: #f94f6c;
+    font-size: 70px;
+    font-family: scoreboard;
+}
+
+.underline{
+    text-decoration: underline;
+}
+#btn{
+    margin-left: 5px;
+    background-color: #1A2447;
+    padding: 10px;
+    border: 1px solid #acc1dd;
+    border-radius: 5px;
+    color: #acc1dd;
+    font-family: scoreboard;
+    font-size: 14px;
+}
+.newGame{
+   display: flex; 
+   justify-content: center;
+   background-color: #1A2447;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 5px;
+   border: 1px solid #acc1dd;
+   margin: auto;
+   
+}
